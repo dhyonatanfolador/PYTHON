@@ -21,6 +21,6 @@ from primeiro_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.home),
-    path('sobre/', views.sobre),
+    path('', views.home),
+    path('about/', views.about),
 ]
